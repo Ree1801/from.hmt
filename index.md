@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+<html>
+<head><meta charset="UTF-8"></head>
 
-You can use the [editor on GitHub](https://github.com/Ree1801/from.hmt/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<H1>FORM 1</H1>
+<form action="https://shop.7-11.com.tw/shop/rui002.faces"method="GET">
+<input type="text"name="catid">
+<input type="submit"value="7-11線上購物分類">
+</form>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<H1>FORM 2</H1>
+<form action="https://shop.7-11.com.tw/shop/rui002.faces"method="GET">
+<select name="catid">
+<option value="61143">茶飲料</option>
+<option value="61144">礦泉水</option>
+<option value="61145">咖啡/果汁/機能</option>
+<option value="61146">沖泡咖啡</option>
+<option value="61147">茶葉/茶包</option>
+<option value="61148">麥片穀物</option>
+<option value="61149">沖調/奶茶/奶粉</option>
+</select>
+<input type="submit"value="飲料沖泡區分類">
+</form>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<H1>FORM 3</H1>
+<form action="https://shop.7-11.com.tw/shop/rui009.faces?ladosidg=1_8&range=&"method="GET">
+<input type="text"name="qs">
+<input type="hidden"name="1"value="">
+<input type="submit"value="輸入關鍵字">
+</form>
 
-```markdown
-Syntax highlighted code block
+<H1>FORM 4 HTML5</H1>
+<input type="datetime-local" min="2020-10-01T00:00" max="2020-12-31T00:00">
+<input type="tel" pattern="[0][9][0-9]{8}" placeholder="09xxxxxxxx">
+<input type="url" placeholder="https://www.gamer.com.tw/">
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ree1801/from.hmt/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<H1>HTML5 時間/日期/電話</H1>
+<input type="time" name="time"><p>
+<input type="date" name="date"><p>
+<input type="tel" pattern="[0][4][0-9]{7}" placeholder="04xxxxxxx">
